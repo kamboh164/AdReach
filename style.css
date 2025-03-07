@@ -1922,6 +1922,7 @@ input {
   }
   .list {
     gap: 20px;
+    flex-direction: column;
   }
   .footer-top {
     grid-template-columns: 1fr;
