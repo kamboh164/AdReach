@@ -241,6 +241,8 @@ home-dropdown {
 }
 .image {
   overflow: hidden;
+  display: flex;
+  align-items: center;
 }
 .section-img-2 {
   width: 100%;
