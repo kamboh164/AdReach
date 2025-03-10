@@ -113,10 +113,9 @@ home-dropdown {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-top: 80px;
+  align-items: center;
 }
-.hero-first {
-  margin-top: 20px;
-}
+
 .heading-one {
   font-size: 60px;
   line-height: 70px;
@@ -219,6 +218,7 @@ home-dropdown {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 80px;
+  align-items: center;
 }
 .section-img {
   width: 100%;
@@ -304,6 +304,7 @@ home-dropdown {
   grid-template-columns: 1fr 1fr;
   gap: 50px;
   width: 100%;
+  align-items: center;
 }
 
 .custom-reports-second-heading h2 {
@@ -1443,6 +1444,8 @@ input {
   width: 90%;
 }
 
+
+
 @media only screen and (max-width: 1200px) {
   .box-img > img {
     width: 100%;
@@ -1943,6 +1946,10 @@ input {
   .tabs-part {
     flex-wrap: wrap;
   }
+}
+
+@media screen and (max-width: 480px) {
+   
 }
 @media screen and (max-width: 376px) {
   .feature-card-box h2 {
